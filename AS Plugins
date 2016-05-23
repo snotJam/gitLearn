@@ -1,0 +1,39 @@
+1：ButterKnife Zelezny
+    
+    一个避免写findView的插件
+
+    在AS里面---setting---Plugins里面搜索ButterKnife Zelezny，安装
+    在gradle文件中：compile 'com.jakewharton:butterknife:8.0.1'
+  
+    使用：
+      鼠标选中R.layout.xxx，然后右键--Gnerate或者Alt_Insert，选中Generate ButterKnife...
+      
+2：Android Postfix completion
+
+    Toast和Log快速生成的插件
+    
+    在AS里面---setting---Plugins里面搜索Android Postfix completion，安装，重启
+    
+    使用：
+      在需要的地方使用："hello".taost：根据提示选择创建Toast或者Log
+      
+      
+3：GsonFormat
+  
+    快速生成Json对应的Bean类的插件
+    
+    在AS里面---setting---Plugins里面搜索GsonFormat，安装，重启
+    
+    使用：
+      在Bean类里面，右键--Gnerate或者Alt_Insert，选中Gson formart，在弹出框里面贴入Json数据，OK
+      
+4：Android Parcelable code generator
+
+    生成实现Parcelable接口的类
+    
+    在AS里面---setting---Plugins里面搜索Android Parcelable code generator，安装，重启
+    
+    使用：
+      在Bean类里面，右键--Gnerate或者Alt_Insert，选中Parcelable，确定。
+    
+      
